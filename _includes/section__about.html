@@ -1,0 +1,29 @@
+<section class="about">
+  {% if include.divider == true %}
+    <div class="wrap"><hr/></div>
+    {% endif %}
+  <div class="wrap grid">
+
+    <!-- <div class="about__image">
+      <img src="{{ '/images/profile.jpg' | relative_url }}" alt="">
+
+    </div> -->
+
+    <div class="about__content" id="about">
+      <h2 class="title">Let's work together?</h2>
+      <p class="subtitle subtitle--light">I tell stories with data.
+      </p>
+
+      <p>Ever heard that talk about chasing news and bringing public attention to important issues? I do pretty much the same, but before knocking on doors, I write some code and build some spreadsheets.</p>
+      <p>I'm looking to develop newsworthy projects that combine gripping storytelling, a data-driven approach and attention to design.</p>
+      <p>If you are interested, reach me at <a class="mail-me" href="rodrigo@meneg.at">rodrigo@meneg.at</a></p>
+
+
+      <!-- <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a> -->
+      
+      {% include component-socials.html %}
+
+   
+    </div>
+  </div>
+</section>
