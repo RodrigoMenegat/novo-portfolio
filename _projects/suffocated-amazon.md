@@ -4,13 +4,13 @@ subtitle: A Twitter bot and a collection of maps that warn about fires in the Br
 date: 2020-09-22 23:43:00
 description: This project, developed for InfoAmazonia with resources from the Pullitzer Center, uses satellite data to power a Twitter bot and an interactive set of maps that keep track of deforestation fires in the rainforest. It pays special attention to fires in indigenous reservations and environmental conservation units.
 featured_image: placeholder.png
-accent_color: '#000'
+accent_color: '#e63946'
 gallery_images:
    - placeholder.png
    - placeholder.png
    - placeholder.png
-   - placeholder.png
-   - placeholder.png
+external_url: http://twitter.com/botqueimadas
+case_study: false
 ---
 
 > "Sets a new bar for location-customized data journalism"

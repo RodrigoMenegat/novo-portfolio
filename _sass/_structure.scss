@@ -15,9 +15,17 @@
   padding: 0 30px;
   width: 100%;
   max-width: 600px;
+}
 
-  @media (min-width: 600px) {
+@media (min-width: 600px) {
+  .wrap {
     margin-left: 10%
+  }
+}
+
+.hero {
+  .wrap {
+    max-width: 800px;
   }
 }
 
@@ -32,7 +40,7 @@
 
 .grid {
 	display: grid;
-	grid-gap: 30px;
+	grid-gap: 10px;
 
 	&__2-col {
     @extend .grid;
@@ -45,7 +53,7 @@
   }
 
   @include mq(tabletp) {
-    grid-gap: 30px;
+    grid-gap: 10px;
   }
 }
 

@@ -4,11 +4,13 @@ subtitle: To celebrate the 200th aniversary of the most important art museum in 
 date: 2020-09-23 23:43:00
 description: This piece uses a t-SNE algorithm and a computer vision script to find patterns among thousands paintings from Museo del Prado's collection. The findings include an impressive collection of still-lifes and a painter obsessed with green fields and distant mountain peaks.
 featured_image: placeholder.png
-accent_color: '#000'
+accent_color: '#e63946'
 gallery_images:
    - placeholder.png
-
-
+   - placeholder.png
+   - placeholder.png
+external_url: https://www.estadao.com.br/infograficos/viagem,uma-inteligencia-artificial-vai-te-guiar-pelo-museu-do-prado-nossa-reporter-pela-cena-cultural-de-madri,1025741
+case_study: false
 ---
 
 > "Sets a new bar for location-customized data journalism"

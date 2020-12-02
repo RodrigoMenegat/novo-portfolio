@@ -1,14 +1,14 @@
 <header class="header--main">
 
-	<div class="wrap grid__2-col">
+	<div class="wrap">
 
 		{% if site.data.settings.header_settings.logo_image %}
 		<a href="{{ site.baseurl }}/" class="header__logo">
 			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
 		</a>
 		{% else %}
-		<a href="{{ site.baseurl }}/" class="header__title">
-			meneg.at
+		<a href="{{ site.baseurl }}/" class="header__title highlighted-text">
+			Rodrigo Menegat
 		</a>
 		{% endif %}
 

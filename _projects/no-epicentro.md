@@ -4,16 +4,15 @@ subtitle: What if all covid‑19 deaths in the country had happened in your neig
 date: 2020-09-24 23:43:00
 description: This interactive story simulates that all Covid-19 deaths in the country happened around the users location. Published both in Brazil (Agência Lupa) and in the United States (The Washington Post).
 featured_image: placeholder.png
-accent_color: '#000'
+accent_color: '#e63946'
 gallery_images:
    - placeholder.png
    - placeholder.png
    - placeholder.png
-   - placeholder.png
-   - placeholder.png
-
+external_url: https://wapo.st/epicenter
+case_study: false
 ---
-
+View live at <a href="#">Lupa</a> or at <a href="#">The Washington Post</a>
 > "Sets a new bar for location-customized data journalism"
 >
 > <cite>**Scott Murray**, author of _Interactive Data Visualization for the Web_</cite>

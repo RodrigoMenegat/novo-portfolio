@@ -4,14 +4,13 @@ subtitle: Instead of treating patients and prescribing drugs, a branch of the me
 date: 2019-09-20 23:43:00
 description: When covid-19 first hit, epidemiological models became a key topic in the public debate. This piece is an explainer on how math and disease spread are closely related, showing how parameters such as the base reproduction number and the serial interval affect how easily a virus infencts the general population. 
 featured_image: placeholder.png
-accent_color: '#000'
+accent_color: '#e63946'
 gallery_images:
    - placeholder.png
    - placeholder.png
    - placeholder.png
-   - placeholder.png
-   - placeholder.png
-
+external_url: https://www.estadao.com.br/infograficos/saude,como-a-matematica-pode-ajudar-a-entender-e-combater-epidemias,1082298
+case_study: false
 ---
 
 > "Sets a new bar for location-customized data journalism"

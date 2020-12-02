@@ -190,6 +190,10 @@ a {
   }
 }
 
+a.post__link:hover{
+  color: $text-dark-color;
+}
+
 .label {
   font-family: $title-font;
   font-size: $label-size;
@@ -239,3 +243,9 @@ code {
   background: $accent-color;
   color: $background-color;
 }
+
+// My additions
+// .post__title.subtitle {
+//   font-size: 18px;
+//   font-weight: 700;
+// }

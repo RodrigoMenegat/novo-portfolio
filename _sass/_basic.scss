@@ -211,3 +211,32 @@ textarea {
 	display: flex;
 	justify-content: flex-end;
 }
+
+// My additions
+.highlighted-text {
+	background-color: $accent-color !important;
+	color: #fff !important; 
+	padding: 6px !important;
+	padding-left: 0px !important;
+	padding-bottom: 3px !important;
+	line-height: 1 !important;
+	font-family: 'Rubik'
+}
+// .highlighted-text:hover {
+// 	color: $accent-color !important;
+// 	background-color: #fff !important;
+// }
+
+@media (max-width: 500px) {
+	.highlighted-text {
+		line-height: 1.5 !important;
+		font-size: 36px !important;
+	}
+}
+
+
+.title-text {
+	font-family: 'Rubik' !important;
+	font-size: 24px;
+	font-weight: regular;
+}

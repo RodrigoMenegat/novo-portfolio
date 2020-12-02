@@ -30,9 +30,10 @@
 	      font-size: $sitetitle-large;
 	    }
 
-	    &:hover {
-	      color: $accent-color;
-	    }
+		&:hover {
+			color: $accent-color !important;
+			background-color: #fff !important;
+		}
 	}
 	
 	.footer__copyright {

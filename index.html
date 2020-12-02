@@ -16,13 +16,29 @@ featured_image: /images/social.jpg
 		<div class="wrap">
 			<div class="title">
 				<p class="subtitle">{{ page.overtitle }}</p>
-				<h1>Hey, I'm Rodrigo!</h1>
+				<h1><span class="title-text">Hi, I'm<br></span><span class="highlighted-text"><a class="highlighted-text" href="#">Rodrigo Menegat</a></span></h1>
 			</div>
 
 			<p class="intro subtitle--light">
 				{{ page.description }}
 			</p>
 
+		</div>
+	</section>
+
+	<section class="recent-posts">
+		<div class="wrap grid">
+			<header class="recent-posts__header">
+				<!-- <h6>What's up?</h6> -->
+				<!-- <a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a> -->
+			</header>
+
+			<div class="recent-posts__list grid">
+				{% for post in site.posts limit: 3 %}
+				{% include component__post-preview.html %}
+				{% endfor %}
+			</div>
+			<!-- <a href="{{ '/blog' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a> -->
 		</div>
 	</section>
 
@@ -34,7 +50,11 @@ featured_image: /images/social.jpg
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
+				{% if project.case_study %}
 				<h3 class="project__title"><a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
+				{% else %}
+				<h3 class="project__title"><a href="{{ project.external_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
+				{% endif %}
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
@@ -46,8 +66,13 @@ featured_image: /images/social.jpg
 					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
 					<p class="project__description --small">
 						{{ project.description }}
+						<a href="{{ project.external_url }}" class="project__link button--text --right"
+						style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Live</a>
+						{% if project.case_study %}
 						<a href="{{ project.url | relative_url }}" class="project__link button--text --right"
 							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
+						{% endif %}
+
 					</p>
 				</div>
 			</article>
@@ -58,20 +83,5 @@ featured_image: /images/social.jpg
 
 	{% include section__about.html %}
 
-	<!-- <section class="recent-posts">
-		<div class="wrap grid">
-			<header class="recent-posts__header">
-				<h4>Recent blog posts</h4>
-				<a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a>
-			</header>
 
-			<div class="recent-posts__list grid">
-				{% for post in site.posts limit: 3 %}
-				{% include component__post-preview.html %}
-				{% endfor %}
-			</div>
-
-			<a href="{{ '/blog' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a>
-		</div>
-	</section> -->
 </div>

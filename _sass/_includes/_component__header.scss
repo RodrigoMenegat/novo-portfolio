@@ -36,7 +36,8 @@
     }
 
     &:hover {
-      color: $accent-color;
+      color: $accent-color !important;
+      background-color: #fff !important;
     }
   }
 
