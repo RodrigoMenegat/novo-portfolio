@@ -21,12 +21,14 @@
   .project__title {
     margin-bottom: 32px;
 
-    a {
+     a {
 
-      &:hover {
-        color: var(--accent);
-      }
-    }
+       &:hover {
+         //color: var(--accent);
+         color: $text-dark-color;
+         opacity: 0.7;
+       }
+     }
   }
 
   .project__images {

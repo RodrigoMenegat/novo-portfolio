@@ -1,15 +1,14 @@
 ---
 title: An AI-guided tour through Museo del Prado
 subtitle: To celebrate the 200th aniversary of the most important art museum in Spain, we used an algorithm to explore its more than 6,000 works virtually.
-date: 2019-08-19 23:43:00
+date: 2020-09-23 23:43:00
 description: This piece uses a t-SNE algorithm and a computer vision script to find patterns among thousands paintings from Museo del Prado's collection. The findings include an impressive collection of still-lifes and a painter obsessed with green fields and distant mountain peaks.
-featured_image: 'prado.png'
-accent_color: '#AD2924'
+featured_image: placeholder.png
+accent_color: '#000'
 gallery_images:
-  - prado.png
-  - prado-2.png
-  - prado-3.png
-  - prado-4.png
+   - placeholder.png
+
+
 ---
 
 > "Sets a new bar for location-customized data journalism"

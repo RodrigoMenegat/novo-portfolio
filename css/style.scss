@@ -128,7 +128,7 @@ $footnote-weight: {{ site.data.settings.font_settings.footnote.weight }};
 $footnote-spacing: {{ site.data.settings.font_settings.footnote.letter_spacing }}px;
 $footnote-lineheight: {{ site.data.settings.font_settings.footnote.line_height }}px;
 
-$blockquote-small: {{ site.data.settings.font_settings.blockquote.small_size }}px;
+$blockquote-small: {{ site.data.settings.font_settings..small_size }}px;
 $blockquote-medium: {{ site.data.settings.font_settings.blockquote.medium_size }}px;
 $blockquote-large: {{ site.data.settings.font_settings.blockquote.large_size }}px;
 $blockquote-weight: {{ site.data.settings.font_settings.blockquote.weight }};
@@ -191,6 +191,9 @@ $baseurl: '{{ site.baseurl }}';
 
 cite {
     font-size: 16px !important;
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: 5px;
 }
 
 .custom-get-in-touch {

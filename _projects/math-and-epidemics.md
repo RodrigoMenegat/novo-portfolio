@@ -1,19 +1,22 @@
 ---
 title: This is how math can help us understand (and prevent) epidemics
 subtitle: Instead of treating patients and prescribing drugs, a branch of the medical sciences uses numbers and statistical models to understand how diseases spread. See what they reveal about covid-19
-
-date: 2019-08-19 23:43:00
+date: 2019-09-20 23:43:00
 description: When covid-19 first hit, epidemiological models became a key topic in the public debate. This piece is an explainer on how math and disease spread are closely related, showing how parameters such as the base reproduction number and the serial interval affect how easily a virus infencts the general population. 
-featured_image: 'epidemiology-1.gif'
-accent_color: '#AD2924'
+featured_image: placeholder.png
+accent_color: '#000'
 gallery_images:
-  - epidemiology-static.jpg
+   - placeholder.png
+   - placeholder.png
+   - placeholder.png
+   - placeholder.png
+   - placeholder.png
+
 ---
 
 > "Sets a new bar for location-customized data journalism"
 >
 > <cite>**Scott Murray**, author of _Interactive Data Visualization for the Web_</cite>
-
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 

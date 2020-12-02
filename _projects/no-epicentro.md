@@ -3,19 +3,20 @@ title: At the epicenter
 subtitle: What if all covid‑19 deaths in the country had happened in your neighborhood?
 date: 2020-09-24 23:43:00
 description: This interactive story simulates that all Covid-19 deaths in the country happened around the users location. Published both in Brazil (Agência Lupa) and in the United States (The Washington Post).
-featured_image: 'wapo-circle.png'
-accent_color: '#AD2924'
+featured_image: placeholder.png
+accent_color: '#000'
 gallery_images:
-  - epicentro-2.png
-  - wapo-circle.png
-  - epicentro-3.png
-  - epicentro-4.png
+   - placeholder.png
+   - placeholder.png
+   - placeholder.png
+   - placeholder.png
+   - placeholder.png
+
 ---
 
 > "Sets a new bar for location-customized data journalism"
 >
 > <cite>**Scott Murray**, author of _Interactive Data Visualization for the Web_</cite>
-
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 

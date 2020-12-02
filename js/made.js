@@ -327,8 +327,9 @@
 					margin: 20,
 					loop: false,
 				});
-				carousel.trigger('to.owl.carousel', 1);
-				console.log("come on");
+				// Uncomment the next line to make the carousel start on the second slide
+				//carousel.trigger('to.owl.carousel', 1);
+				// console.log("come on");
 
 			});
 		})
