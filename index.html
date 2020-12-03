@@ -61,7 +61,7 @@ featured_image: /images/social.jpg
 					{% if project.case_study %}
 					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
 					{% else %}
-					<a href="{{ project.exeternal_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					<a href="{{ project.external_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
 					{% endif %}
 					{% endfor %}
 				</div>
