@@ -10,7 +10,7 @@ gallery_images:
    - placeholder.png
    - placeholder.png
 external_url: https://wapo.st/epicenter
-case_study: false
+case_study: true
 ---
 View live at <a href="#">Lupa</a> or at <a href="#">The Washington Post</a>
 > "Sets a new bar for location-customized data journalism"
